@@ -1,6 +1,44 @@
-# Getting Started with Create React App
+# Calculator Milestone 1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Setup phase before starting to build the project.
+
+## Built With
+
+- Npm
+- Heroku
+- React
+
+## Live Preview
+
+[Demo](https://fathomless-stream-35094.herokuapp.com/)
+
+## Getting Started
+
+**This is the setup phase.**
+
+To get a local copy up and running follow these simple example steps.
+
+## Prerequisites
+
+Computer running Mac OS, Windows, or Linux Ubuntu.
+
+Internet browser: Firefox, Google Chrome, Opera, etc...
+
+Install [NodeJs](https://nodejs.org/en/download/)
+
+Optional (For deployment)
+
+Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
+
+## Setup
+
+Download the code or copy the git repository to your computer.
+
+To install dependencies you need to run the following command in your terminal.
+
+```
+  npm install
+```
 
 ## Available Scripts
 
@@ -39,32 +77,30 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project is deployed to Heroku, but you can use Netlify or other platforms you like.
 
-### `npm run build` fails to minify
+For Heroku deployment we you can enter each of the following commands.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+    heroku create your-app-name --buildpack mars/create-react-app
+
+    // you can remove 'your-app-name' if you don't know what name to put
+
+
+    git push heroku master
+
+    // if you are deploying the project from the master branch
+
+
+    git push heroku your-branch:master
+
+    // if you are deploying from a branch different from master
+
+
+    heroku open
+```
+
+And there you go! You have your app deployed to Heroku.
+
