@@ -1,6 +1,6 @@
-# Calculator Milestone 1
+# Calculator Milestone 2
 
-Setup phase before starting to build the project.
+Adding necessary components for the calculator.
 
 ## Built With
 
@@ -104,3 +104,20 @@ For Heroku deployment we you can enter each of the following commands.
 
 And there you go! You have your app deployed to Heroku.
 
+## Authors
+
+👤 **Steven Jack Chung**
+
+- GitHub: [@jcy2704](https://github.com/jcy2704)
+- Twitter: [@yiak_](https://twitter.com/yiak_)
+- LinkedIn: [Steven Jack Chung](https://linkedin.com/in/stevenjchung)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/jcy2704/weather-app/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
