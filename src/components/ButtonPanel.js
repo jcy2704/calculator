@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './Button';
 
 const ButtonPanel = () => {
   const group = [['AC', '+/-', '%', '÷'], [7, 8, 9, 'X'], [4, 5, 6, '-'], [1, 2, 3, '+'], [0, '.', '=']];
@@ -8,7 +9,7 @@ const ButtonPanel = () => {
       {group.map(elem => (
         <div key={elem.id}>
           {elem.map(btn => (
-            React.createElement('button', { type: 'button' }, btn)
+            <Button key={btn.id} name={btn} />
           ))}
         </div>
       ))}
