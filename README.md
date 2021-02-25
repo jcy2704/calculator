@@ -114,7 +114,7 @@ And there you go! You have your app deployed to Heroku.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/jcy2704/weather-app/issues).
+Feel free to check the [issues page](https://github.com/jcy2704/calculator/issues).
 
 ## Show your support
 
