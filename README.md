@@ -1,6 +1,6 @@
-# Calculator Milestone 2
+# Calculator Milestone 4
 
-Adding necessary components for the calculator.
+Adding the logic part of the calculator. (Calculate and Operate)
 
 ## Built With
 
@@ -13,8 +13,6 @@ Adding necessary components for the calculator.
 [Demo](https://fathomless-stream-35094.herokuapp.com/)
 
 ## Getting Started
-
-**This is the setup phase.**
 
 To get a local copy up and running follow these simple example steps.
 
