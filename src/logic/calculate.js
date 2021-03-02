@@ -7,6 +7,11 @@ const calculate = ({
 }, buttonName) => {
   let result;
 
+  if (total === 'Math Error') {
+    result = { total: null, next, operation };
+    return result;
+  }
+
   if (buttonName in ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']) {
     result = { total, next: next == null ? buttonName : next + buttonName, operation };
     return result;
@@ -37,7 +42,7 @@ const calculate = ({
     return result;
   }
 
-  if (total !== null && next === null && operation && buttonName !== '=') {
+  if (total !== null && next === null && operation && buttonName !== '=' && buttonName !== '+/-') {
     result = { total, next, operation: buttonName };
     return result;
   }
