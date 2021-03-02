@@ -1,0 +1,28 @@
+.btn {
+  cursor: pointer;
+  font-size: 2em;
+  padding: 30px;
+  width: 100px;
+  border: 1px solid rgba(109, 109, 109, 0.24);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.App-calculator .btnCont:nth-child(2) .btn0,
+.App-calculator .btnCont:nth-child(2) .btn1,
+.App-calculator .btnCont:nth-child(2) .btn2 {
+  background-color: rgb(221, 221, 221);
+}
+
+.App-calculator .btnCont:last-child .btn0 {
+  width: 200px;
+}
+
+.btn3,
+.App-calculator .btnCont:last-child .btn2 {
+  background-color: orange;
+}
+
+:focus {
+  outline: none;
+}

@@ -1,6 +1,6 @@
 import operate from './operate';
 
-const operations = ['+', '-', '÷', 'x', '='];
+const operations = ['+', '−', '÷', '×', '='];
 
 const calculate = ({
   total, next, operation,
@@ -17,9 +17,10 @@ const calculate = ({
     return result;
   }
 
-  if (buttonName === '.') {
+  if (buttonName === '.' && String(next).indexOf('.') === -1) {
     result = { total, next: next == null ? '0.' : next + buttonName, operation };
-    return result;
+  } else if (String(next).indexOf('.') >= 0) {
+    result = { total, next, operation };
   }
 
   if (operations.includes(buttonName)) {
@@ -42,7 +43,7 @@ const calculate = ({
     return result;
   }
 
-  if (total !== null && next === null && operation && buttonName !== '=' && buttonName !== '+/-') {
+  if (total !== null && next === null && operation && buttonName !== '=' && buttonName !== '±') {
     result = { total, next, operation: buttonName };
     return result;
   }
@@ -62,8 +63,8 @@ const calculate = ({
     return result;
   }
 
-  if (buttonName === '+/-') {
-    if (operation === '-') {
+  if (buttonName === '±') {
+    if (operation === '−') {
       result = { total, next, operation: '+' };
     } else {
       result = { total, next: next * -1, operation };
