@@ -1,6 +1,8 @@
-# Calculator Milestone 4
+# Calculator
 
-Adding the logic part of the calculator. (Calculate and Operate)
+Simple calculator created with React Framework. It includes all basic operations and edge cases such a number divided by 0 is equal to 'Math Error'. 
+
+![Calculator](https://user-images.githubusercontent.com/64392568/109710484-b860c980-7b6b-11eb-8251-d295dc78f228.png)
 
 ## Built With
 
