@@ -7,14 +7,14 @@ const ButtonPanel = ({ clickHandler }) => {
     clickHandler(buttonName);
   };
 
-  const group = [['AC', '+/-', '%', '÷'], [7, 8, 9, 'X'], [4, 5, 6, '-'], [1, 2, 3, '+'], [0, '.', '=']];
+  const group = [['AC', '+/-', '%', '÷'], ['7', '8', '9', 'x'], ['4', '5', '6', '-'], ['1', '2', '3', '+'], ['0', '.', '=']];
 
   return (
     <>
       {group.map(elem => (
-        <div key={elem.id}>
+        <div key={elem.toString()}>
           {elem.map(btn => (
-            <Button key={btn.id} name={btn} clickHandler={handleClick} />
+            <Button key={btn} name={btn} clickHandler={handleClick} />
           ))}
         </div>
       ))}
