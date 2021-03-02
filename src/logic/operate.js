@@ -40,6 +40,7 @@ const operate = (numberOne, numberTwo, operation) => {
     next = Big(numberTwo).div(100).toString();
     result = { total: numberOne, next, operation };
   }
+
   return result;
 };
 
