@@ -43,7 +43,7 @@ const calculate = ({
     return result;
   }
 
-  if (total !== null && next === null && operation && buttonName !== '=' && buttonName !== '±') {
+  if (total !== null && next === null && operation && buttonName !== '=' && buttonName !== '±' && buttonName !== 'AC') {
     result = { total, next, operation: buttonName };
     return result;
   }
