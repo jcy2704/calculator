@@ -66,6 +66,8 @@ const calculate = ({
   if (buttonName === '±') {
     if (operation === '−') {
       result = { total, next, operation: '+' };
+    } else if (operation === '+') {
+      result = { total, next, operation: '−' };
     } else {
       result = { total, next: next * -1, operation };
     }
