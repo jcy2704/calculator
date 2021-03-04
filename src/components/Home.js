@@ -4,12 +4,18 @@ import { Link } from 'react-router-dom';
 import '../styles/Home.css';
 
 const Home = () => (
-  <main>
+  <div className="home-body">
     <h1>
       Welcome to My Calculator!
+      {' '}
+      <span role="img" aria-label="calc">🧮</span>
     </h1>
     <p>
-      Hi! I am Steven. I created a calculator as a project to learn more about how React.js works. It is very confusing but very pretty cool so far. You can go and head to
+      Hi! I am
+      {' '}
+      <a href="https://stevenchung.me" target="_blank" rel="noreferrer">Steven</a>
+      {' '}
+      . I created a calculator as a project to learn more about how React.js works. It is very confusing but very pretty cool so far. You can go and head to
       {' '}
       <Link to="/calculator">Calculator</Link>
       {' '}
@@ -20,7 +26,7 @@ const Home = () => (
       {' '}
       <a href="https://github.com/jcy2704/calculator">Github Calculator</a>
     </p>
-  </main>
+  </div>
 );
 
 export default Home;
