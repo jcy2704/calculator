@@ -24,7 +24,7 @@ const Home = () => (
     <p>
       Here is the source code:
       {' '}
-      <a href="https://github.com/jcy2704/calculator">Github Calculator</a>
+      <a href="https://github.com/jcy2704/calculator" target="_blank" rel="noreferrer">Github Calculator</a>
     </p>
   </div>
 );
