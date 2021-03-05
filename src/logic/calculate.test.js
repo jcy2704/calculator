@@ -45,7 +45,7 @@ describe('Calculator', () => {
     const total = calculate({ total: '1', next: null, operation: '+' }, '±');
     expect(total).toEqual({ total: '1', next: null, operation: '−' });
   });
-  ['+', '−', '÷', '×', '=']
+
   it('convert to porcetage', () => {
     const total = calculate({ total: null, next: '10', operation: null }, '%');
     expect(total).toEqual({ total: null, next: '0.1', operation: null });
