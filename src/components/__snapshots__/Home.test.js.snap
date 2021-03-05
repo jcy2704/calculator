@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders the Home page 1`] = `
+<div
+  className="home-body"
+>
+  <h1>
+    Welcome to My Calculator!
+     
+    <span
+      aria-label="calc"
+      role="img"
+    >
+      🧮
+    </span>
+  </h1>
+  <p>
+    Hi! I am
+     
+    <a
+      href="https://stevenchung.me"
+      rel="noreferrer"
+      target="_blank"
+    >
+      Steven
+    </a>
+     
+    . I created a calculator as a project to learn more about how React.js works. It is very confusing but very pretty cool so far. You can go and head to
+     
+    <a
+      href="/calculator"
+    >
+      Calculator
+    </a>
+     
+    to try it out!
+  </p>
+  <p>
+    Here is the source code:
+     
+    <a
+      href="https://github.com/jcy2704/calculator"
+      rel="noreferrer"
+      target="_blank"
+    >
+      Github Calculator
+    </a>
+  </p>
+</div>
+`;

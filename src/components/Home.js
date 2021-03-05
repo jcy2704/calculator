@@ -1,6 +1,5 @@
 /* eslint-disable max-len */
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../styles/Home.css';
 
 const Home = () => (
@@ -17,7 +16,7 @@ const Home = () => (
       {' '}
       . I created a calculator as a project to learn more about how React.js works. It is very confusing but very pretty cool so far. You can go and head to
       {' '}
-      <Link to="/calculator">Calculator</Link>
+      <a href="/calculator">Calculator</a>
       {' '}
       to try it out!
     </p>
